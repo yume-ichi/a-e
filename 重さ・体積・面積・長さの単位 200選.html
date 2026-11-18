@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>重さ・体積・面積・長さの単位 200選</title>
+<style>
+:root{--bg:#faf8f4;--fg:#222;--sub:#666;--card:#fff;--line:#e3ded4;--acc:#b5532b;--chip:#efe9dd;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1a18;--fg:#eee9df;--sub:#a49d90;--card:#252320;--line:#3a3731;--acc:#e08a60;--chip:#312e29;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1a18;--fg:#eee9df;--sub:#a49d90;--card:#252320;--line:#3a3731;--acc:#e08a60;--chip:#312e29;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;line-height:1.5}
+main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:1.4rem;margin:0 0 4px}
+.lead{color:var(--sub);margin:0 0 14px;font-size:.9rem}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:999px;padding:4px 12px;font-size:.85rem;cursor:pointer}
+.chip.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+input{width:100%;box-sizing:border-box;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:1rem;margin-bottom:12px}
+.list{display:grid;gap:6px}
+.item{display:flex;gap:10px;align-items:baseline;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+.no{color:var(--sub);font-size:.75rem;min-width:2em}
+.name{font-weight:700}
+.tag{color:var(--sub);font-size:.72rem;margin-left:6px}
+.val{margin-left:auto;font-weight:700;color:var(--acc);text-align:right}
+.foot{color:var(--sub);font-size:.8rem;margin-top:18px}
+</style>
+</head>
+<body>
+<main>
+<h1 id="t">単位 200選</h1>
+<p class="lead">重さ・体積と容量・面積・長さの単位を、国際単位から尺貫法・ヤード・ポンド法、天文・物理の単位までまとめました。</p>
+<div class="bar" id="bar"></div>
+<input id="q" type="search" placeholder="名前・数値で検索">
+<div class="list" id="list"></div>
+<p class="foot">※ 値は概数です。ポンド法の「米」「英」の違い、中国・インド・タイなどの地域単位、日本の畳・東京ドームなどは基準により揺れがあります。</p>
+</main>
+<script>
+var R=`ナノグラム|10⁻⁹ g|w
+マイクログラム|10⁻⁶ g|w
+ミリグラム|10⁻³ g|w
+グラム|1 g|w
+キログラム|1 kg|w
+トン（メートルトン）|1,000 kg|w
+キロトン|10⁶ kg|w
+メガトン|10⁹ kg|w
+ギガトン|10¹² kg|w
+クインタル|100 kg|w
+グレーン|約64.80 mg|w
+カラット|200 mg|w
+ペニーウェイト|約1.555 g|w
+スクループル|約1.296 g|w
+ドラム（常用）|約1.772 g|w
+オンス（常用）|約28.35 g|w
+トロイオンス|約31.10 g|w
+ポンド（常用）|約453.6 g|w
+トロイポンド|約373.2 g|w
+ストーン|約6.350 kg|w
+スラグ|約14.59 kg|w
+クォーター（英）|約12.70 kg|w
+ハンドレッドウェイト（米）|約45.36 kg|w
+ハンドレッドウェイト（英）|約50.80 kg|w
+キップ|約453.6 kg|w
+ショートトン（米トン）|約907.2 kg|w
+ロングトン（英トン）|約1,016 kg|w
+プード（露）|約16.38 kg|w
+トラ（インド）|約11.66 g|w
+毛（もう）|約0.00375 g|w
+厘（りん）|0.0375 g|w
+分（ぶ）|0.375 g|w
+匁（もんめ）|3.75 g|w
+斤（尺貫法）|600 g|w
+斤（食パン）|340 g以上|w
+貫（かん）|3.75 kg|w
+俵（米）|60 kg|w
+キャティ（香港）|約604.8 g|w
+両（香港）|約37.80 g|w
+担（香港）|約60.48 kg|w
+ダルトン（原子質量）|約1.661×10⁻²⁷ kg|w
+プランク質量|約2.176×10⁻⁸ kg|w
+月の質量|約7.342×10²² kg|w
+地球の質量|約5.972×10²⁴ kg|w
+木星の質量|約1.898×10²⁷ kg|w
+太陽の質量|約1.989×10³⁰ kg|w
+マイクロリットル|0.001 mL|v
+ミリリットル（cc）|1 mL|v
+センチリットル|10 mL|v
+デシリットル|100 mL|v
+リットル|1,000 mL|v
+ヘクトリットル|100 L|v
+キロリットル（立方メートル）|1,000 L|v
+立方キロメートル|10⁹ m³|v
+1滴（薬用）|約0.05 mL|v
+ミニム（米）|約0.0616 mL|v
+液量ドラム（米）|約3.697 mL|v
+ティースプーン（米）|約4.929 mL|v
+テーブルスプーン（米）|約14.79 mL|v
+液量オンス（米）|約29.57 mL|v
+液量オンス（英）|約28.41 mL|v
+ジガー|約44.36 mL|v
+ジル（米）|約118.3 mL|v
+カップ（米）|約236.6 mL|v
+パイント（米）|約473.2 mL|v
+パイント（英）|約568.3 mL|v
+クォート（米）|約946.4 mL|v
+クォート（英）|約1.137 L|v
+ガロン（米）|約3.785 L|v
+ガロン（英）|約4.546 L|v
+ドライパイント（米）|約550.6 mL|v
+ドライクォート（米）|約1.101 L|v
+ペック（米）|約8.810 L|v
+ブッシェル（米）|約35.24 L|v
+ブッシェル（英）|約36.37 L|v
+ファーキン（英）|約40.91 L|v
+キルダーキン（英）|約81.82 L|v
+バレル（米・液体）|約119.2 L|v
+バレル（米・石油）|約158.99 L|v
+バレル（英・ビール）|約163.7 L|v
+ホグスヘッド（米）|約238.5 L|v
+タン（米）|約954 L|v
+立方インチ|約16.39 mL|v
+立方フィート|約28.32 L|v
+立方ヤード|約0.7646 m³|v
+レジスタートン|約2.832 m³|v
+コード（薪）|約3.625 m³|v
+エーカーフィート|約1,233 m³|v
+ピッコロ（ワイン）|187.5 mL|v
+ハーフボトル|375 mL|v
+標準ボトル|750 mL|v
+マグナム|1.5 L|v
+ジェロボアム|3 L|v
+レハボアム|4.5 L|v
+メトセラ|6 L|v
+サルマナザール|9 L|v
+バルタザール|12 L|v
+ネブカドネザル|15 L|v
+勺（しゃく）|約18.04 mL|v
+合（ごう）|約180.4 mL|v
+升（しょう）|約1.804 L|v
+斗（と）|約18.04 L|v
+石（こく）|約180.4 L|v
+一升瓶|1.8 L|v
+小さじ（日本）|5 mL|v
+大さじ（日本）|15 mL|v
+計量カップ（日本）|200 mL|v
+東京ドーム（容積）|約124万 m³|v
+琵琶湖（貯水量）|約275億 m³|v
+競泳プール（50m）|約2,500 m³|v
+平方ミリメートル|10⁻⁶ m²|a
+平方センチメートル|10⁻⁴ m²|a
+平方メートル|1 m²|a
+アール|100 m²|a
+ヘクタール|10,000 m²|a
+平方キロメートル|10⁶ m²|a
+平方インチ|約6.452 cm²|a
+平方フィート|約0.09290 m²|a
+平方ヤード|約0.8361 m²|a
+スクエア（屋根）|約9.290 m²|a
+パーチ（平方ロッド）|約25.29 m²|a
+ルード|約1,012 m²|a
+エーカー|約4,047 m²|a
+クォーターセクション|約0.647 km²|a
+平方マイル（セクション）|約2.590 km²|a
+タウンシップ（米）|約93.24 km²|a
+サーキュラーミル|約5.067×10⁻⁴ mm²|a
+バーン|10⁻²⁸ m²|a
+シェッド|10⁻⁵² m²|a
+勺（面積）|約0.03306 m²|a
+合（面積）|約0.3306 m²|a
+坪（歩）|約3.306 m²|a
+畳（1枚）|約1.62 m²|a
+畝（せ）|約99.17 m²|a
+反（たん）|約991.7 m²|a
+町（ちょう）|約9,917 m²|a
+平方尺|約0.0918 m²|a
+坪（ピョン・韓国）|約3.306 m²|a
+畝（ムー・中国）|約666.7 m²|a
+ライ（タイ）|1,600 m²|a
+ンガーン（タイ）|400 m²|a
+平方ワー（タイ）|4 m²|a
+マルラ（インド）|約25.29 m²|a
+カナル（パンジャブ）|約505.9 m²|a
+グンタ（インド）|約101.2 m²|a
+セント（インド）|約40.47 m²|a
+ドゥヌム（中東）|約1,000 m²|a
+フェダン（エジプト）|約4,201 m²|a
+ストレマ（ギリシャ）|1,000 m²|a
+アルパン（仏）|約3,419 m²|a
+アメフト場（米）|約5,351 m²|a
+サッカー場（標準）|約7,140 m²|a
+東京ドーム（建築面積）|約46,755 m²|a
+山手線の内側|約63 km²|a
+琵琶湖（面積）|約669 km²|a
+フェムトメートル（フェルミ）|10⁻¹⁵ m|l
+ナノメートル|10⁻⁹ m|l
+マイクロメートル|10⁻⁶ m|l
+ミリメートル|10⁻³ m|l
+センチメートル|10⁻² m|l
+メートル|1 m|l
+キロメートル|10³ m|l
+オングストローム|10⁻¹⁰ m|l
+ミル（thou）|25.4 μm|l
+ポイント（DTP）|約0.3528 mm|l
+パイカ|約4.233 mm|l
+インチ|25.4 mm|l
+ハンド|101.6 mm|l
+スパン|228.6 mm|l
+フット|0.3048 m|l
+キュービット（英）|457.2 mm|l
+ヤード|0.9144 m|l
+エル（英）|1.143 m|l
+ファゾム|1.8288 m|l
+ロッド（パーチ）|約5.029 m|l
+リンク|約20.12 cm|l
+チェーン|約20.12 m|l
+ハロン（furlong）|約201.2 m|l
+ケーブル|約185.2 m|l
+マイル|1,609.344 m|l
+海里|1,852 m|l
+リーグ|約4.828 km|l
+厘（長さ）|約0.303 mm|l
+分（長さ）|約3.03 mm|l
+寸（すん）|約3.030 cm|l
+尺（しゃく）|約30.30 cm|l
+間（けん）|約1.818 m|l
+丈（じょう）|約3.030 m|l
+町（長さ）|約109.1 m|l
+里（日本）|約3.927 km|l
+里（中国）|500 m|l
+光秒|約299,792 km|l
+光分|約1.799×10⁷ km|l
+太陽の半径|約6.957×10⁵ km|l
+天文単位（au）|約1.496×10⁸ km|l
+光年|約9.461×10¹² km|l
+パーセク|約3.086×10¹³ km|l
+メガパーセク|約3.086×10¹⁹ km|l
+ボーア半径|約5.292×10⁻¹¹ m|l
+プランク長|約1.616×10⁻³⁵ m|l`;
+var D=R.split("\n").map(function(s){return s.split("|")});
+var N={all:"すべて",w:"重さ",v:"体積・容量",a:"面積",l:"長さ"},cur="all";
+var bar=document.getElementById("bar"),q=document.getElementById("q"),list=document.getElementById("list");
+document.getElementById("t").textContent="単位 "+D.length+"選";
+function render(){
+ var t=q.value.trim().toLowerCase(),h="";
+ D.forEach(function(d,i){
+  if(cur!=="all"&&d[2]!==cur)return;
+  if(t&&d.join(" ").toLowerCase().indexOf(t)<0)return;
+  h+='<div class="item"><span class="no">'+(i+1)+'</span><span class="name">'+d[0]+'</span><span class="tag">'+N[d[2]]+'</span><span class="val">'+d[1]+'</span></div>';
+ });
+ list.innerHTML=h||'<p class="foot">該当なし</p>';
+ bar.innerHTML="";
+ Object.keys(N).forEach(function(k){var b=document.createElement("button");b.className="chip"+(k===cur?" on":"");b.textContent=N[k];b.onclick=function(){cur=k;render()};bar.appendChild(b)});
+}
+q.oninput=render;render();
+</script>
+</body>
+</html>
